@@ -63,4 +63,9 @@
         font-size: 28px;
         line-height: 38px;
     }
+    
+    .gpt3__features-container__feature {
+        flex-direction: column;
+        
+    }
 }
