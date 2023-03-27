@@ -60,7 +60,35 @@
 
 .gpt3__footer-link_div p {
     margin-bottom: 20px;
-    
 }
 
+.gpt3__footer-link_div-bar {
+    display: none;
+}
 
+@media screen and (max-width: 850px) {
+    .gpt3__footer-heading  {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .gpt3__footer-links {
+        flex-direction: column;
+    }
+    .gpt3__footer-link_div {
+        margin: 1.25rem 0;
+    }
+    .gpt3__footer-link_div-bar {
+        display: block;
+        width: 38px;
+        height: 3px;
+        background: var(--gradient-bar);
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__footer-heading  {
+        font-size: 34px;
+        line-height: 42px;
+    }
+}
