@@ -6,7 +6,12 @@ const Article = ({ imgUrl, title, date, link }) => {
   return (
 		<div className='gpt3__blog-container_article'>
 			<div className='gpt3__blog-container_article-image'>
-				<img src={imgUrl} alt='blog' />
+				<a href={link}>
+					<img
+						src={imgUrl}
+						alt='blog'
+					/>
+				</a>
 			</div>
 			<div className='gpt3__blog-container_article-content'>
 				<div>
